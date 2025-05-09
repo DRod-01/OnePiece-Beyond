@@ -1,0 +1,36 @@
+
+body {
+  font-family: sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+h1, h2 {
+  color: #58a6ff;
+}
+.options button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #21262d;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.options button:hover {
+  background-color: #30363d;
+}
+.sheet {
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid #30363d;
+  border-radius: 5px;
+  background-color: #161b22;
+}

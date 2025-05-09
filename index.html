@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>One Piece Beyond - Character Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>One Piece Beyond</h1>
+    <div class="builder">
+      <h2>Step 1: Choose a Race</h2>
+      <div class="options" id="race-options">
+        <button onclick="selectRace('Human')">Human</button>
+        <button onclick="selectRace('Fishman')">Fishman</button>
+        <button onclick="selectRace('Mink')">Mink</button>
+        <button onclick="selectRace('Sky Islander')">Sky Islander</button>
+        <button onclick="selectRace('Augmented')">Augmented</button>
+      </div>
+
+      <h2>Step 2: Choose a Class</h2>
+      <div class="options" id="class-options">
+        <button onclick="selectClass('Brawler')">Brawler</button>
+        <button onclick="selectClass('Fighter')">Fighter</button>
+        <button onclick="selectClass('Medic')">Medic</button>
+        <button onclick="selectClass('Gadgeteer')">Gadgeteer</button>
+        <button onclick="selectClass('Marksman')">Marksman</button>
+      </div>
+
+      <h2>Step 3: Choose a Role</h2>
+      <div class="options" id="role-options">
+        <button onclick="selectRole('Captain')">Captain</button>
+        <button onclick="selectRole('Cook')">Cook</button>
+        <button onclick="selectRole('Navigator')">Navigator</button>
+        <button onclick="selectRole('First Mate')">First Mate</button>
+        <button onclick="selectRole('Doctor')">Doctor</button>
+      </div>
+    </div>
+
+    <div class="sheet">
+      <h2>Your Character Sheet</h2>
+      <p><strong>Race:</strong> <span id="char-race">None</span></p>
+      <p><strong>Class:</strong> <span id="char-class">None</span></p>
+      <p><strong>Role:</strong> <span id="char-role">None</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
